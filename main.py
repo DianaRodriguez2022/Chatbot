@@ -2,6 +2,7 @@ import completion as completion
 from flask import Flask, render_template, request
 import openai
 from openai import OpenAI
+
 import os
 
 app = Flask(__name__)

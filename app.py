@@ -5,7 +5,7 @@ import openai
 app = Flask(__name__, template_folder='templates')
 CORS(app)
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = 'keyApi'
 
 
 @app.route('/api', methods=['POST'])
